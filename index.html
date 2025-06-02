@@ -7,18 +7,14 @@
     <style>
     body { 
         font-family: Arial, sans-serif; 
-        text-align: center; 
         padding: 0; 
+        padding: auto;
     }
-    img { 
-        max-width: 100%; 
-        height: auto; 
-        margin: 0; 
-    }
-
     .image-gallery {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         gap: 0;
         padding: 0;
         margin: 0;
@@ -27,6 +23,8 @@
     .image-gallery img {
         display: block;
         margin: 0;
+        max-width: 100%;
+        height: auto;
     }
     </style>
 </head>
